@@ -1,0 +1,2993 @@
+{
+    "body": {
+        "films": [
+            {
+                "id": "5111s2r",
+                "name": "Avatar: Istota wody",
+                "length": 193,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5111S2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=1bjubsSfAUc",
+                "link": "https://www.cinema-city.pl/filmy/avatar-istota-wody/5111s2r",
+                "weight": -8,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "3d",
+                    "4dx",
+                    "dolby-atmos",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "first-subbed-lang-pl",
+                    "hfr",
+                    "imax",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed",
+                    "vip"
+                ]
+            },
+            {
+                "id": "5412d2r",
+                "name": "Bella i Sebastian: Nowe pokolenie",
+                "length": 97,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5412D2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=QeeXGqtHk9c",
+                "link": "https://www.cinema-city.pl/filmy/bella-i-sebastian-nowe-pokolenie/5412d2r",
+                "weight": 0,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "7-plus",
+                    "adventure",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "family"
+                ]
+            },
+            {
+                "id": "5219s2r",
+                "name": "Czarna Pantera: Wakanda w moim sercu",
+                "length": 161,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5219S2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=zuzJudWlSp0",
+                "link": "https://www.cinema-city.pl/filmy/czarna-pantera-wakanda-w-moim-sercu/5219s2r",
+                "weight": 0,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "action",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ]
+            },
+            {
+                "id": "5413s2r",
+                "name": "Do ostatniej kości",
+                "length": 131,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5413S2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=hDxEFXei2Eg",
+                "link": "https://www.cinema-city.pl/filmy/do-ostatniej-kosci/5413s2r",
+                "weight": 0,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "drama",
+                    "first-subbed-lang-pl",
+                    "horror",
+                    "na",
+                    "original-lang-en-us",
+                    "romance",
+                    "subbed"
+                ]
+            },
+            {
+                "id": "5387s2r",
+                "name": "Dzika noc",
+                "length": 111,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5387S2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=nbPBgbBfXS4",
+                "link": "https://www.cinema-city.pl/filmy/dzika-noc/5387s2r",
+                "weight": 0,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "subbed",
+                    "thriller"
+                ]
+            },
+            {
+                "id": "5228d2r",
+                "name": "Dziwny świat",
+                "length": 102,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5228D2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=iso5_3YKa9c",
+                "link": "https://www.cinema-city.pl/filmy/dziwny-swiat/5228d2r",
+                "weight": 0,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "original-lang-en-us"
+                ]
+            },
+            {
+                "id": "5392s2r",
+                "name": "Fabelmanowie",
+                "length": 151,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5392S2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=tKkDq7RkOS4",
+                "link": "https://www.cinema-city.pl/filmy/fabelmanowie/5392s2r",
+                "weight": -3,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "12-plus",
+                    "2d",
+                    "drama",
+                    "first-subbed-lang-pl",
+                    "original-lang-en-us",
+                    "subbed"
+                ]
+            },
+            {
+                "id": "4955d2r",
+                "name": "Kierunek: Księżyc!",
+                "length": 85,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/4955D2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=3qJL_VGiKec",
+                "link": "https://www.cinema-city.pl/filmy/kierunek-ksiezyc/4955d2r",
+                "weight": 0,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "bez-ograniczen",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "family"
+                ]
+            },
+            {
+                "id": "5034d2r",
+                "name": "Kot w butach: Ostatnie życzenie",
+                "length": 100,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5034D2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=mGmNFtrIK-8",
+                "link": "https://www.cinema-city.pl/filmy/kot-w-butach-ostatnie-zyczenie/5034d2r",
+                "weight": -5,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "bez-ograniczen",
+                    "dubbed",
+                    "dubbed-lang-pl"
+                ]
+            },
+            {
+                "id": "5289o2r",
+                "name": "Listy do M. 5",
+                "length": 117,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5289O2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=aJ8cQZA9Y20",
+                "link": "https://www.cinema-city.pl/filmy/listy-do-m-5/5289o2r",
+                "weight": -1,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "comedy",
+                    "na",
+                    "original-lang-pl",
+                    "romance"
+                ]
+            },
+            {
+                "id": "5241s2r",
+                "name": "Menu",
+                "length": 106,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5241S2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=bHUPJMVZ-H4",
+                "link": "https://www.cinema-city.pl/filmy/menu/5241s2r",
+                "weight": 0,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "subbed"
+                ]
+            },
+            {
+                "id": "4037d2r",
+                "name": "Minionki: Wejście Gru",
+                "length": 88,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/4037D2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=RTkaNcLNjp8",
+                "link": "https://www.cinema-city.pl/filmy/minionki-wejscie-gru/4037d2r",
+                "weight": 0,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "adventure",
+                    "animation",
+                    "bez-ograniczen",
+                    "comedy",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "family",
+                    "fantasy"
+                ]
+            },
+            {
+                "id": "5440o2r",
+                "name": "Śubuk",
+                "length": 118,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5440O2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=VMH5e6608hU",
+                "link": "https://www.cinema-city.pl/filmy/subuk/5440o2r",
+                "weight": 0,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "15-plus",
+                    "2d",
+                    "drama",
+                    "original-lang-pl"
+                ]
+            },
+            {
+                "id": "5454s2r",
+                "name": "Terrifier 2. Masakra w Swieta",
+                "length": 138,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5454S2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=5QqJSdNDUGY",
+                "link": "https://www.cinema-city.pl/filmy/terrifier-2-masakra-w-swieta/5454s2r",
+                "weight": -6,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "15-plus",
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "horror",
+                    "original-lang-en-us",
+                    "subbed"
+                ]
+            },
+            {
+                "id": "5399s2r",
+                "name": "Whitney Houston: I Wanna Dance With Somebody 2D",
+                "length": 135,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5399S2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=caGvC0nFBkY",
+                "link": "https://www.cinema-city.pl/filmy/whitney-houston-i-wanna-dance-with-somebody-2d/5399s2r",
+                "weight": -7,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "subbed",
+                    "vip"
+                ]
+            },
+            {
+                "id": "5199s2r",
+                "name": "Wielki zielony krokodyl domowy",
+                "length": 106,
+                "posterLink": "https://www.cinema-city.pl/xmedia-cw/repo/feats/posters/5199S2R-md.jpg",
+                "videoLink": "https://www.youtube.com/watch?v=i8IqWCa37Pw",
+                "link": "https://www.cinema-city.pl/filmy/wielki-zielony-krokodyl-domowy/5199s2r",
+                "weight": -7,
+                "releaseYear": "2022",
+                "attributeIds": [
+                    "2d",
+                    "adventure",
+                    "animation",
+                    "bez-ograniczen",
+                    "comedy",
+                    "dubbed",
+                    "dubbed-lang-pl"
+                ]
+            }
+        ],
+        "events": [
+            {
+                "id": "158847",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T10:00:00",
+                "attributeIds": [
+                    "3d",
+                    "4dx",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158847&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158847&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158847",
+                "soldOut": false,
+                "auditorium": "18-KInder Bueno",
+                "auditoriumTinyName": "S18"
+            },
+            {
+                "id": "158901",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T10:00:00",
+                "attributeIds": [
+                    "3d",
+                    "first-subbed-lang-pl",
+                    "hfr",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158901&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158901&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158901",
+                "soldOut": false,
+                "auditorium": "S.2-City Handlowy",
+                "auditoriumTinyName": "S02"
+            },
+            {
+                "id": "158992",
+                "filmId": "5228d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T10:00:00",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "original-lang-en-us"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158992&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158992&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158992",
+                "soldOut": false,
+                "auditorium": "Sala 6-Play",
+                "auditoriumTinyName": "S06"
+            },
+            {
+                "id": "158939",
+                "filmId": "4037d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T10:10:00",
+                "attributeIds": [
+                    "2d",
+                    "adventure",
+                    "animation",
+                    "bez-ograniczen",
+                    "comedy",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "family",
+                    "fantasy"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158939&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158939&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158939",
+                "soldOut": false,
+                "auditorium": "Sala 4-AXA",
+                "auditoriumTinyName": "S04"
+            },
+            {
+                "id": "159217",
+                "filmId": "4955d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T10:20:00",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "bez-ograniczen",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "family"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159217&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159217&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159217",
+                "soldOut": false,
+                "auditorium": "Sala 15-NAM",
+                "auditoriumTinyName": "S15"
+            },
+            {
+                "id": "158823",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T10:20:00",
+                "attributeIds": [
+                    "3d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "hfr",
+                    "imax",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158823&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158823&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158823",
+                "soldOut": false,
+                "auditorium": "20-Cinkciarz",
+                "auditoriumTinyName": "S20"
+            },
+            {
+                "id": "159141",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T10:20:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159141&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159141&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159141",
+                "soldOut": false,
+                "auditorium": "Sala12-Mentos",
+                "auditoriumTinyName": "S12"
+            },
+            {
+                "id": "159161",
+                "filmId": "5412d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T10:20:00",
+                "attributeIds": [
+                    "2d",
+                    "7-plus",
+                    "adventure",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "family"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159161&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159161&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159161",
+                "soldOut": false,
+                "auditorium": "13-Bakalland",
+                "auditoriumTinyName": "S13"
+            },
+            {
+                "id": "158969",
+                "filmId": "5399s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T10:30:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158969&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158969&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158969",
+                "soldOut": false,
+                "auditorium": "Sala 5-Play",
+                "auditoriumTinyName": "S05"
+            },
+            {
+                "id": "159123",
+                "filmId": "5034d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T10:50:00",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "bez-ograniczen",
+                    "dubbed",
+                    "dubbed-lang-pl"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159123&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159123&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159123",
+                "soldOut": false,
+                "auditorium": "11-Tarczyński",
+                "auditoriumTinyName": "S11"
+            },
+            {
+                "id": "159266",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T11:10:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159266&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159266&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159266",
+                "soldOut": false,
+                "auditorium": "17-NO-SPA",
+                "auditoriumTinyName": "S17"
+            },
+            {
+                "id": "159287",
+                "filmId": "5199s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T11:10:00",
+                "attributeIds": [
+                    "2d",
+                    "adventure",
+                    "animation",
+                    "bez-ograniczen",
+                    "comedy",
+                    "dubbed",
+                    "dubbed-lang-pl"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159287&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159287&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159287",
+                "soldOut": false,
+                "auditorium": "19-MasterCard",
+                "auditoriumTinyName": "S19"
+            },
+            {
+                "id": "158874",
+                "filmId": "5228d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T11:10:00",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "original-lang-en-us"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158874&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158874&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158874",
+                "soldOut": false,
+                "auditorium": "1-Wawel",
+                "auditoriumTinyName": "S01"
+            },
+            {
+                "id": "159242",
+                "filmId": "5034d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T11:20:00",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "bez-ograniczen",
+                    "dubbed",
+                    "dubbed-lang-pl"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159242&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159242&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159242",
+                "soldOut": false,
+                "auditorium": "Sala 16-Tic Tac",
+                "auditoriumTinyName": "S16"
+            },
+            {
+                "id": "158919",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T11:30:00",
+                "attributeIds": [
+                    "3d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "hfr",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158919&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158919&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158919",
+                "soldOut": false,
+                "auditorium": "S.3 Skoda",
+                "auditoriumTinyName": "S03"
+            },
+            {
+                "id": "159021",
+                "filmId": "4955d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T11:40:00",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "bez-ograniczen",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "family"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159021&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159021&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159021",
+                "soldOut": false,
+                "auditorium": "Sala 7-Play",
+                "auditoriumTinyName": "S07"
+            },
+            {
+                "id": "159190",
+                "filmId": "5440o2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T11:40:00",
+                "attributeIds": [
+                    "15-plus",
+                    "2d",
+                    "drama",
+                    "original-lang-pl"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159190&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159190&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159190",
+                "soldOut": false,
+                "auditorium": "Sala 14 -Namyslów",
+                "auditoriumTinyName": "S14"
+            },
+            {
+                "id": "158940",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T12:10:00",
+                "attributeIds": [
+                    "2d",
+                    "dolby-atmos",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158940&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158940&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158940",
+                "soldOut": false,
+                "auditorium": "Sala 4-AXA",
+                "auditoriumTinyName": "S04"
+            },
+            {
+                "id": "158993",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T12:10:00",
+                "attributeIds": [
+                    "3d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158993&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158993&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158993",
+                "soldOut": false,
+                "auditorium": "Sala 6-Play",
+                "auditoriumTinyName": "S06"
+            },
+            {
+                "id": "159218",
+                "filmId": "5219s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T12:20:00",
+                "attributeIds": [
+                    "2d",
+                    "action",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159218&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159218&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159218",
+                "soldOut": false,
+                "auditorium": "Sala 15-NAM",
+                "auditoriumTinyName": "S15"
+            },
+            {
+                "id": "159162",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T12:30:00",
+                "attributeIds": [
+                    "3d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159162&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159162&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159162",
+                "soldOut": false,
+                "auditorium": "13-Bakalland",
+                "auditoriumTinyName": "S13"
+            },
+            {
+                "id": "159045",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T13:00:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed",
+                    "vip"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159045&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159045&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159045",
+                "soldOut": false,
+                "auditorium": "Sala8-Ziaja",
+                "auditoriumTinyName": "S08"
+            },
+            {
+                "id": "159111",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T13:10:00",
+                "attributeIds": [
+                    "2d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159111&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159111&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159111",
+                "soldOut": false,
+                "auditorium": "11-Tarczyński",
+                "auditoriumTinyName": "S11"
+            },
+            {
+                "id": "158970",
+                "filmId": "5399s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T13:20:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158970&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158970&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158970",
+                "soldOut": false,
+                "auditorium": "Sala 5-Play",
+                "auditoriumTinyName": "S05"
+            },
+            {
+                "id": "158875",
+                "filmId": "5454s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T13:20:00",
+                "attributeIds": [
+                    "15-plus",
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "horror",
+                    "original-lang-en-us",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158875&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158875&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158875",
+                "soldOut": false,
+                "auditorium": "1-Wawel",
+                "auditoriumTinyName": "S01"
+            },
+            {
+                "id": "159243",
+                "filmId": "5034d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T13:40:00",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "bez-ograniczen",
+                    "dubbed",
+                    "dubbed-lang-pl"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159243&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159243&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159243",
+                "soldOut": false,
+                "auditorium": "Sala 16-Tic Tac",
+                "auditoriumTinyName": "S16"
+            },
+            {
+                "id": "159022",
+                "filmId": "5199s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T13:40:00",
+                "attributeIds": [
+                    "2d",
+                    "adventure",
+                    "animation",
+                    "bez-ograniczen",
+                    "comedy",
+                    "dubbed",
+                    "dubbed-lang-pl"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159022&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159022&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159022",
+                "soldOut": false,
+                "auditorium": "Sala 7-Play",
+                "auditoriumTinyName": "S07"
+            },
+            {
+                "id": "159288",
+                "filmId": "5228d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T13:40:00",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "original-lang-en-us"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159288&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159288&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159288",
+                "soldOut": false,
+                "auditorium": "19-MasterCard",
+                "auditoriumTinyName": "S19"
+            },
+            {
+                "id": "158848",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T13:50:00",
+                "attributeIds": [
+                    "3d",
+                    "4dx",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158848&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158848&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158848",
+                "soldOut": false,
+                "auditorium": "18-KInder Bueno",
+                "auditoriumTinyName": "S18"
+            },
+            {
+                "id": "158902",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T13:50:00",
+                "attributeIds": [
+                    "3d",
+                    "first-subbed-lang-pl",
+                    "hfr",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158902&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158902&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158902",
+                "soldOut": false,
+                "auditorium": "S.2-City Handlowy",
+                "auditoriumTinyName": "S02"
+            },
+            {
+                "id": "159073",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T13:50:00",
+                "attributeIds": [
+                    "3d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi",
+                    "vip"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159073&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159073&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159073",
+                "soldOut": false,
+                "auditorium": "Sala 9-Soti",
+                "auditoriumTinyName": "S09"
+            },
+            {
+                "id": "159142",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T14:10:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159142&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159142&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159142",
+                "soldOut": false,
+                "auditorium": "Sala12-Mentos",
+                "auditoriumTinyName": "S12"
+            },
+            {
+                "id": "159191",
+                "filmId": "4955d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T14:15:00",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "bez-ograniczen",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "family"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159191&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159191&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159191",
+                "soldOut": false,
+                "auditorium": "Sala 14 -Namyslów",
+                "auditoriumTinyName": "S14"
+            },
+            {
+                "id": "158824",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T14:15:00",
+                "attributeIds": [
+                    "3d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "hfr",
+                    "imax",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158824&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158824&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158824",
+                "soldOut": false,
+                "auditorium": "20-Cinkciarz",
+                "auditoriumTinyName": "S20"
+            },
+            {
+                "id": "159267",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T15:00:00",
+                "attributeIds": [
+                    "2d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159267&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159267&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159267",
+                "soldOut": false,
+                "auditorium": "17-NO-SPA",
+                "auditoriumTinyName": "S17"
+            },
+            {
+                "id": "158920",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T15:20:00",
+                "attributeIds": [
+                    "3d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "hfr",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158920&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158920&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158920",
+                "soldOut": false,
+                "auditorium": "S.3 Skoda",
+                "auditoriumTinyName": "S03"
+            },
+            {
+                "id": "159219",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T15:40:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159219&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159219&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159219",
+                "soldOut": false,
+                "auditorium": "Sala 15-NAM",
+                "auditoriumTinyName": "S15"
+            },
+            {
+                "id": "158994",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T15:50:00",
+                "attributeIds": [
+                    "3d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158994&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158994&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158994",
+                "soldOut": false,
+                "auditorium": "Sala 6-Play",
+                "auditoriumTinyName": "S06"
+            },
+            {
+                "id": "159244",
+                "filmId": "5034d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T16:00:00",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "bez-ograniczen",
+                    "dubbed",
+                    "dubbed-lang-pl"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159244&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159244&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159244",
+                "soldOut": false,
+                "auditorium": "Sala 16-Tic Tac",
+                "auditoriumTinyName": "S16"
+            },
+            {
+                "id": "158941",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T16:00:00",
+                "attributeIds": [
+                    "2d",
+                    "dolby-atmos",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158941&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158941&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158941",
+                "soldOut": false,
+                "auditorium": "Sala 4-AXA",
+                "auditoriumTinyName": "S04"
+            },
+            {
+                "id": "159289",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T16:10:00",
+                "attributeIds": [
+                    "2d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159289&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159289&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159289",
+                "soldOut": false,
+                "auditorium": "19-MasterCard",
+                "auditoriumTinyName": "S19"
+            },
+            {
+                "id": "158876",
+                "filmId": "5392s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T16:10:00",
+                "attributeIds": [
+                    "12-plus",
+                    "2d",
+                    "drama",
+                    "first-subbed-lang-pl",
+                    "original-lang-en-us",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158876&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158876&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158876",
+                "soldOut": false,
+                "auditorium": "1-Wawel",
+                "auditoriumTinyName": "S01"
+            },
+            {
+                "id": "158971",
+                "filmId": "5399s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T16:10:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158971&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158971&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158971",
+                "soldOut": false,
+                "auditorium": "Sala 5-Play",
+                "auditoriumTinyName": "S05"
+            },
+            {
+                "id": "159023",
+                "filmId": "5454s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T16:10:00",
+                "attributeIds": [
+                    "15-plus",
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "horror",
+                    "original-lang-en-us",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159023&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159023&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159023",
+                "soldOut": false,
+                "auditorium": "Sala 7-Play",
+                "auditoriumTinyName": "S07"
+            },
+            {
+                "id": "159163",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T16:20:00",
+                "attributeIds": [
+                    "3d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159163&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159163&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159163",
+                "soldOut": false,
+                "auditorium": "13-Bakalland",
+                "auditoriumTinyName": "S13"
+            },
+            {
+                "id": "159192",
+                "filmId": "5289o2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T16:20:00",
+                "attributeIds": [
+                    "2d",
+                    "comedy",
+                    "na",
+                    "original-lang-pl",
+                    "romance"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159192&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159192&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159192",
+                "soldOut": false,
+                "auditorium": "Sala 14 -Namyslów",
+                "auditoriumTinyName": "S14"
+            },
+            {
+                "id": "159094",
+                "filmId": "5399s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T16:30:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "subbed",
+                    "vip"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159094&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159094&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159094",
+                "soldOut": false,
+                "auditorium": "Sala 10-NAM",
+                "auditoriumTinyName": "S10"
+            },
+            {
+                "id": "159046",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T16:50:00",
+                "attributeIds": [
+                    "2d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi",
+                    "vip"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159046&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159046&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159046",
+                "soldOut": false,
+                "auditorium": "Sala8-Ziaja",
+                "auditoriumTinyName": "S08"
+            },
+            {
+                "id": "159112",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T17:00:00",
+                "attributeIds": [
+                    "2d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159112&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159112&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159112",
+                "soldOut": false,
+                "auditorium": "11-Tarczyński",
+                "auditoriumTinyName": "S11"
+            },
+            {
+                "id": "158849",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T17:40:00",
+                "attributeIds": [
+                    "3d",
+                    "4dx",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158849&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158849&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158849",
+                "soldOut": false,
+                "auditorium": "18-KInder Bueno",
+                "auditoriumTinyName": "S18"
+            },
+            {
+                "id": "158903",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T17:40:00",
+                "attributeIds": [
+                    "3d",
+                    "first-subbed-lang-pl",
+                    "hfr",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158903&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158903&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158903",
+                "soldOut": false,
+                "auditorium": "S.2-City Handlowy",
+                "auditoriumTinyName": "S02"
+            },
+            {
+                "id": "159074",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T17:40:00",
+                "attributeIds": [
+                    "3d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed",
+                    "vip"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159074&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159074&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159074",
+                "soldOut": false,
+                "auditorium": "Sala 9-Soti",
+                "auditoriumTinyName": "S09"
+            },
+            {
+                "id": "159143",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T18:00:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159143&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159143&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159143",
+                "soldOut": false,
+                "auditorium": "Sala12-Mentos",
+                "auditoriumTinyName": "S12"
+            },
+            {
+                "id": "158825",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T18:10:00",
+                "attributeIds": [
+                    "3d",
+                    "first-subbed-lang-pl",
+                    "hfr",
+                    "imax",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158825&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158825&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158825",
+                "soldOut": false,
+                "auditorium": "20-Cinkciarz",
+                "auditoriumTinyName": "S20"
+            },
+            {
+                "id": "159245",
+                "filmId": "5034d2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T18:20:00",
+                "attributeIds": [
+                    "2d",
+                    "animation",
+                    "bez-ograniczen",
+                    "dubbed",
+                    "dubbed-lang-pl"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159245&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159245&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159245",
+                "soldOut": false,
+                "auditorium": "Sala 16-Tic Tac",
+                "auditoriumTinyName": "S16"
+            },
+            {
+                "id": "159268",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T18:50:00",
+                "attributeIds": [
+                    "2d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159268&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159268&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159268",
+                "soldOut": false,
+                "auditorium": "17-NO-SPA",
+                "auditoriumTinyName": "S17"
+            },
+            {
+                "id": "159193",
+                "filmId": "5241s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T18:50:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159193&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159193&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159193",
+                "soldOut": false,
+                "auditorium": "Sala 14 -Namyslów",
+                "auditoriumTinyName": "S14"
+            },
+            {
+                "id": "159024",
+                "filmId": "5387s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T19:00:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "subbed",
+                    "thriller"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159024&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159024&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159024",
+                "soldOut": false,
+                "auditorium": "Sala 7-Play",
+                "auditoriumTinyName": "S07"
+            },
+            {
+                "id": "158972",
+                "filmId": "5399s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T19:00:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158972&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158972&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158972",
+                "soldOut": false,
+                "auditorium": "Sala 5-Play",
+                "auditoriumTinyName": "S05"
+            },
+            {
+                "id": "158921",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T19:10:00",
+                "attributeIds": [
+                    "3d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "hfr",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158921&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158921&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158921",
+                "soldOut": false,
+                "auditorium": "S.3 Skoda",
+                "auditoriumTinyName": "S03"
+            },
+            {
+                "id": "158877",
+                "filmId": "5454s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T19:10:00",
+                "attributeIds": [
+                    "15-plus",
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "horror",
+                    "original-lang-en-us",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158877&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158877&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158877",
+                "soldOut": false,
+                "auditorium": "1-Wawel",
+                "auditoriumTinyName": "S01"
+            },
+            {
+                "id": "159095",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T19:30:00",
+                "attributeIds": [
+                    "2d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi",
+                    "vip"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159095&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159095&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159095",
+                "soldOut": false,
+                "auditorium": "Sala 10-NAM",
+                "auditoriumTinyName": "S10"
+            },
+            {
+                "id": "159220",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T19:30:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159220&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159220&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159220",
+                "soldOut": false,
+                "auditorium": "Sala 15-NAM",
+                "auditoriumTinyName": "S15"
+            },
+            {
+                "id": "158995",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T19:40:00",
+                "attributeIds": [
+                    "3d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158995&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158995&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158995",
+                "soldOut": false,
+                "auditorium": "Sala 6-Play",
+                "auditoriumTinyName": "S06"
+            },
+            {
+                "id": "158942",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T19:50:00",
+                "attributeIds": [
+                    "2d",
+                    "dolby-atmos",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158942&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158942&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158942",
+                "soldOut": false,
+                "auditorium": "Sala 4-AXA",
+                "auditoriumTinyName": "S04"
+            },
+            {
+                "id": "159164",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T20:10:00",
+                "attributeIds": [
+                    "3d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159164&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159164&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159164",
+                "soldOut": false,
+                "auditorium": "13-Bakalland",
+                "auditoriumTinyName": "S13"
+            },
+            {
+                "id": "159290",
+                "filmId": "5392s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T20:10:00",
+                "attributeIds": [
+                    "12-plus",
+                    "2d",
+                    "drama",
+                    "first-subbed-lang-pl",
+                    "original-lang-en-us",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159290&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159290&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159290",
+                "soldOut": false,
+                "auditorium": "19-MasterCard",
+                "auditoriumTinyName": "S19"
+            },
+            {
+                "id": "159047",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T20:40:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed",
+                    "vip"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159047&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159047&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159047",
+                "soldOut": false,
+                "auditorium": "Sala8-Ziaja",
+                "auditoriumTinyName": "S08"
+            },
+            {
+                "id": "159246",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T20:40:00",
+                "attributeIds": [
+                    "3d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159246&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159246&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159246",
+                "soldOut": false,
+                "auditorium": "Sala 16-Tic Tac",
+                "auditoriumTinyName": "S16"
+            },
+            {
+                "id": "159113",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T20:50:00",
+                "attributeIds": [
+                    "2d",
+                    "dubbed",
+                    "dubbed-lang-pl",
+                    "na",
+                    "sci-fi"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159113&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159113&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159113",
+                "soldOut": false,
+                "auditorium": "11-Tarczyński",
+                "auditoriumTinyName": "S11"
+            },
+            {
+                "id": "159194",
+                "filmId": "5289o2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T21:10:00",
+                "attributeIds": [
+                    "2d",
+                    "comedy",
+                    "na",
+                    "original-lang-pl",
+                    "romance"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159194&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159194&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159194",
+                "soldOut": false,
+                "auditorium": "Sala 14 -Namyslów",
+                "auditoriumTinyName": "S14"
+            },
+            {
+                "id": "158850",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T21:30:00",
+                "attributeIds": [
+                    "3d",
+                    "4dx",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158850&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158850&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158850",
+                "soldOut": false,
+                "auditorium": "18-KInder Bueno",
+                "auditoriumTinyName": "S18"
+            },
+            {
+                "id": "158904",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T21:30:00",
+                "attributeIds": [
+                    "3d",
+                    "first-subbed-lang-pl",
+                    "hfr",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158904&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158904&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158904",
+                "soldOut": false,
+                "auditorium": "S.2-City Handlowy",
+                "auditoriumTinyName": "S02"
+            },
+            {
+                "id": "159075",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T21:30:00",
+                "attributeIds": [
+                    "3d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed",
+                    "vip"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159075&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159075&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159075",
+                "soldOut": false,
+                "auditorium": "Sala 9-Soti",
+                "auditoriumTinyName": "S09"
+            },
+            {
+                "id": "159025",
+                "filmId": "5413s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T21:30:00",
+                "attributeIds": [
+                    "2d",
+                    "drama",
+                    "first-subbed-lang-pl",
+                    "horror",
+                    "na",
+                    "original-lang-en-us",
+                    "romance",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159025&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159025&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159025",
+                "soldOut": false,
+                "auditorium": "Sala 7-Play",
+                "auditoriumTinyName": "S07"
+            },
+            {
+                "id": "159144",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T21:50:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=159144&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=159144&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "159144",
+                "soldOut": false,
+                "auditorium": "Sala12-Mentos",
+                "auditoriumTinyName": "S12"
+            },
+            {
+                "id": "158973",
+                "filmId": "5399s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T21:50:00",
+                "attributeIds": [
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "na",
+                    "original-lang-en-us",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158973&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158973&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158973",
+                "soldOut": false,
+                "auditorium": "Sala 5-Play",
+                "auditoriumTinyName": "S05"
+            },
+            {
+                "id": "158826",
+                "filmId": "5111s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T22:00:00",
+                "attributeIds": [
+                    "3d",
+                    "first-subbed-lang-pl",
+                    "hfr",
+                    "imax",
+                    "na",
+                    "original-lang-en-us",
+                    "sci-fi",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158826&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158826&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158826",
+                "soldOut": false,
+                "auditorium": "20-Cinkciarz",
+                "auditoriumTinyName": "S20"
+            },
+            {
+                "id": "158878",
+                "filmId": "5454s2r",
+                "cinemaId": "1097",
+                "businessDay": "2022-12-27",
+                "eventDateTime": "2022-12-27T22:00:00",
+                "attributeIds": [
+                    "15-plus",
+                    "2d",
+                    "first-subbed-lang-pl",
+                    "horror",
+                    "original-lang-en-us",
+                    "subbed"
+                ],
+                "bookingLink": "https://www.cinema-city.pl/booking?presentationCode=158878&cinemaId=1097&lang=pl-PL",
+                "compositeBookingLink": {
+                    "type": "TITAN",
+                    "bookingUrl": {
+                        "url": "https://s8.cinema-city.pl/S_PL_1097",
+                        "params": {
+                            "lang": "pl-PL",
+                            "key": "PLWroclaviaPOW"
+                        }
+                    },
+                    "obsoleteBookingUrl": "https://www.cinema-city.pl/booking?presentationCode=158878&cinemaId=1097&lang=pl-PL",
+                    "blockOnlineSales": false,
+                    "blockOnlineSalesUntil": null,
+                    "serviceUrl": "https://www.cinema-city.pl/booking"
+                },
+                "presentationCode": "158878",
+                "soldOut": false,
+                "auditorium": "1-Wawel",
+                "auditoriumTinyName": "S01"
+            }
+        ]
+    }
+}
