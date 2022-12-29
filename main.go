@@ -8,6 +8,7 @@ import (
 	"os"
 	"time"
 
+	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
@@ -21,6 +22,10 @@ const (
 )
 */
 
+type WithIndex interface {
+	getId() string
+}
+
 type CinemasResponse struct {
 	Body struct {
 		Cinemas []Cinema
@@ -30,6 +35,10 @@ type CinemasResponse struct {
 type Cinema struct {
 	Id   string `bson:"_id"`
 	Name string `json:"displayName" bson:"name"`
+}
+
+func (c Cinema) getId() string {
+	return c.Id
 }
 
 type DatesResponse struct {
@@ -46,22 +55,30 @@ type EventsResponse struct {
 }
 
 type Event struct {
-	Id            string
-	FilmId        string
-	CinemaId      string
-	BusinessDay   string
-	EventDateTime string
+	Id            string   `bson:"_id"`
+	FilmId        string   `bson:"filmId"`
+	CinemaId      string   `bson:"cinemaId"`
+	BusinessDay   string   `bson:"businessDay"`
+	EventDateTime string   `bson:"eventDateTime"`
 	Attributes    []string `json:"attributeIds"`
-	BookingLink   string
-	Auditorium    string `json:"AuditoriumTinyName"`
+	BookingLink   string   `bson:"bookingLink"`
+	Auditorium    string   `json:"AuditoriumTinyName"`
+}
+
+func (e Event) getId() string {
+	return e.Id
 }
 
 type Film struct {
-	Id          string
+	Id          string `bson:"_id"`
 	Name        string
 	Length      int
 	PosterLink  string
 	ReleaseYear string
+}
+
+func (f Film) getId() string {
+	return f.Id
 }
 
 func fetch_cinemas() []Cinema {
@@ -96,6 +113,7 @@ func fetch_dates() []string {
 
 	return resp.Body.Dates
 }
+*/
 
 func fetch_events() ([]Film, []Event) {
 	fpath := `mockdata/events.json`
@@ -112,12 +130,27 @@ func fetch_events() ([]Film, []Event) {
 
 	return resp.Body.Films, resp.Body.Events
 }
-*/
+
+func UpsertMany[T WithIndex](coll *mongo.Collection, ctx context.Context, arr []T) mongo.UpdateResult {
+	res := mongo.UpdateResult{}
+	opts := options.Update().SetUpsert(true)
+	for _, v := range arr {
+		update := bson.D{{"$set", v}}
+		result, err := coll.UpdateByID(ctx, v.getId(), update, opts)
+		if err != nil {
+			panic(err)
+		}
+		res.MatchedCount += result.MatchedCount
+		res.ModifiedCount += result.ModifiedCount
+		res.UpsertedCount += result.UpsertedCount
+	}
+	return res
+}
 
 func main() {
 	cinemas := fetch_cinemas()
 	//dates := fetch_dates()
-	//films, event := fetch_events()
+	films, events := fetch_events()
 
 	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb://root:example@localhost:27017/"))
 	if err != nil {
@@ -136,18 +169,14 @@ func main() {
 	}
 
 	db := client.Database("cinema-city")
-	//opts := options.Update().SetUpsert(true)
 
-	cinemasCollection := db.Collection("cinemas")
+	result := UpsertMany(db.Collection("cinemas"), ctx, cinemas)
+	fmt.Printf("Cinemas: matched=%v, modified=%v, upserted=%v\n", result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
 
-	cins := make([]any, 0)
-	for _, v := range cinemas {
-		cins = append(cins, v)
-	}
+	result = UpsertMany(db.Collection("events"), ctx, events)
+	fmt.Printf("Events: matched=%v, modified=%v, upserted=%v\n", result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
 
-	result, err := cinemasCollection.InsertMany(ctx, cins)
-	if err != nil {
-		panic(err)
-	}
-	fmt.Printf("Number of documents inserted: %d\n", len(result.InsertedIDs))
+	result = UpsertMany(db.Collection("films"), ctx, films)
+	fmt.Printf("Films: matched=%v, modified=%v, upserted=%v\n", result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
+
 }
