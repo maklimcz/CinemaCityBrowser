@@ -4,8 +4,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"io/ioutil"
 	"log"
-	"os"
+	"net/http"
 	"time"
 
 	"go.mongodb.org/mongo-driver/bson"
@@ -14,13 +15,11 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/readpref"
 )
 
-/*
 const (
-	cinemasURL string = `https://www.cinema-city.pl/pl/data-api-service/v1/quickbook/10103/cinemas/with-event/until/2023-12-22?attr=&lang=pl_PL`
-	datesURL   string = `https://www.cinema-city.pl/pl/data-api-service/v1/quickbook/10103/dates/in-cinema/1097/until/2023-12-22?attr=&lang=pl_PL`
-	eventsURL  string = `https://www.cinema-city.pl/pl/data-api-service/v1/quickbook/10103/film-events/in-cinema/1097/at-date/2022-12-22?attr=&lang=pl_PL`
+	cinemasURL        string = `https://www.cinema-city.pl/pl/data-api-service/v1/quickbook/10103/cinemas/with-event/until/3000-06-06?attr=&lang=pl_PL`
+	datesURL          string = `https://www.cinema-city.pl/pl/data-api-service/v1/quickbook/10103/dates/in-cinema/1097/until/3000-06-06?attr=&lang=pl_PL`
+	eventsURLtemplate string = `https://www.cinema-city.pl/pl/data-api-service/v1/quickbook/10103/film-events/in-cinema/%v/at-date/%v?attr=&lang=pl_PL`
 )
-*/
 
 type WithIndex interface {
 	getId() string
@@ -74,6 +73,7 @@ type Film struct {
 	Name        string
 	Length      int
 	PosterLink  string
+	Link        string
 	ReleaseYear string
 }
 
@@ -81,62 +81,66 @@ func (f Film) getId() string {
 	return f.Id
 }
 
+func fetch_url(url string) []byte {
+	httpClient := http.Client{Timeout: 5 * time.Second}
+	req, err := http.NewRequest(http.MethodGet, url, nil)
+	if err != nil {
+		log.Fatal(err)
+	}
+	res, err := httpClient.Do(req)
+	if err != nil {
+		log.Fatal(err)
+	}
+	if res.Body != nil {
+		defer res.Body.Close()
+	}
+	body, err := ioutil.ReadAll(res.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+	return body
+}
+
 func fetch_cinemas() []Cinema {
-	fpath := `mockdata/cinemas.json`
-	log.Println("Opening a file:", fpath)
-	content, err := os.ReadFile(fpath)
-	if err != nil {
-		log.Fatal("Error reading file.", err)
-	}
+	body := fetch_url(cinemasURL)
 	var resp CinemasResponse
-	err = json.Unmarshal(content, &resp)
+	err := json.Unmarshal(body, &resp)
 	if err != nil {
 		log.Fatal("Error parsing content.", err)
 	}
-
-	return resp.Body.Cinemas
+	cinemas := resp.Body.Cinemas
+	return cinemas
 }
 
-/*
 func fetch_dates() []string {
-	fpath := `mockdata/dates.json`
-	log.Println("Opening a file:", fpath)
-	content, err := os.ReadFile(fpath)
-	if err != nil {
-		log.Fatal("Error reading file.", err)
-	}
+	body := fetch_url(datesURL)
 	var resp DatesResponse
-	err = json.Unmarshal(content, &resp)
+	err := json.Unmarshal(body, &resp)
 	if err != nil {
 		log.Fatal("Error parsing content.", err)
 	}
-
-	return resp.Body.Dates
+	cinemas := resp.Body.Dates
+	return cinemas
 }
-*/
 
-func fetch_events() ([]Film, []Event) {
-	fpath := `mockdata/events.json`
-	log.Println("Opening a file:", fpath)
-	content, err := os.ReadFile(fpath)
-	if err != nil {
-		log.Fatal("Error reading file.", err)
-	}
+func fetch_events(cinemaId string, date string) ([]Film, []Event) {
+	url := fmt.Sprintf(eventsURLtemplate, cinemaId, date)
+	log.Println(url)
+	body := fetch_url(url)
 	var resp EventsResponse
-	err = json.Unmarshal(content, &resp)
+	err := json.Unmarshal(body, &resp)
 	if err != nil {
 		log.Fatal("Error parsing content.", err)
 	}
-
 	return resp.Body.Films, resp.Body.Events
 }
 
-func UpsertMany[T WithIndex](coll *mongo.Collection, ctx context.Context, arr []T) mongo.UpdateResult {
+func UpsertMany[T WithIndex](coll *mongo.Collection, ctx *context.Context, arr []T) mongo.UpdateResult {
 	res := mongo.UpdateResult{}
 	opts := options.Update().SetUpsert(true)
 	for _, v := range arr {
 		update := bson.D{{"$set", v}}
-		result, err := coll.UpdateByID(ctx, v.getId(), update, opts)
+		result, err := coll.UpdateByID(*ctx, v.getId(), update, opts)
 		if err != nil {
 			panic(err)
 		}
@@ -147,10 +151,20 @@ func UpsertMany[T WithIndex](coll *mongo.Collection, ctx context.Context, arr []
 	return res
 }
 
+func fetch_events_and_upsert(cinema Cinema, date string, db *mongo.Database, ctx *context.Context) {
+	log.Printf("Fetching repertoire for cinema %v on date %v\n", cinema.Name, date)
+	films, events := fetch_events(cinema.Id, date)
+
+	result := UpsertMany(db.Collection("events"), ctx, events)
+	log.Printf("%v\t%v\tEvents:\tmatched=%v\tmodified=%v\tupserted=%v\n", date, cinema.Name, result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
+	result = UpsertMany(db.Collection("films"), ctx, films)
+	log.Printf("%v\t%v\tFilms:\tmatched=%v\tmodified=%v\tupserted=%v\n", date, cinema.Name, result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
+	log.Println("End")
+}
+
 func main() {
 	cinemas := fetch_cinemas()
-	//dates := fetch_dates()
-	films, events := fetch_events()
+	dates := fetch_dates()
 
 	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb://root:example@localhost:27017/"))
 	if err != nil {
@@ -170,13 +184,71 @@ func main() {
 
 	db := client.Database("cinema-city")
 
-	result := UpsertMany(db.Collection("cinemas"), ctx, cinemas)
-	fmt.Printf("Cinemas: matched=%v, modified=%v, upserted=%v\n", result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
+	result := UpsertMany(db.Collection("cinemas"), &ctx, cinemas)
+	log.Printf("Cinemas: matched=%v, modified=%v, upserted=%v\n", result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
 
-	result = UpsertMany(db.Collection("events"), ctx, events)
-	fmt.Printf("Events: matched=%v, modified=%v, upserted=%v\n", result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
+	for _, date := range dates {
+		for _, cinema := range cinemas {
+			if cinema.Name == "Wrocław - Wroclavia" {
+				fetch_events_and_upsert(cinema, date, db, &ctx)
+			}
+		}
+	}
 
-	result = UpsertMany(db.Collection("films"), ctx, films)
-	fmt.Printf("Films: matched=%v, modified=%v, upserted=%v\n", result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
+	/*
+
+		pipeline := mongo.Pipeline{
+			{{"$match", bson.D{
+				{"businessDay", "2022-12-27"},
+				{"cinemaId", "1097"},
+			}}},
+			{{"$lookup", bson.D{
+				{"from", "films"},
+				{"localField", "filmId"},
+				{"foreignField", "_id"},
+				{"as", "filmDoc"},
+			}}},
+			{{"$project", bson.D{
+				{"_id", 0},
+				{"auditorium", 1},
+				{"filmName", "$filmDoc.name"},
+				{"filmLength", "$filmDoc.length"},
+				{"start", "$eventDateTime"},
+				{"attributes", 1},
+				{"bookingLink", 1},
+				{"filmLink", "$filmDoc.link"},
+			}}},
+			{{"$unwind", bson.D{
+				{"path", "$filmName"},
+			}}},
+			{{"$unwind", bson.D{
+				{"path", "$filmLength"},
+			}}},
+			{{"$sort", bson.D{
+				{"auditorium", 1},
+				{"start", 1},
+			}}},
+		}
+
+		db.Collection("fullEvents").Drop(ctx)
+
+		err = db.CreateView(ctx, "fullEvents", "events", pipeline)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		cursor, err := db.Collection("fullEvents").Find(ctx, bson.D{})
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		var results []bson.M
+		if err = cursor.All(context.TODO(), &results); err != nil {
+			log.Fatal(err)
+		}
+		for _, result := range results {
+			fmt.Println(result)
+		}
+	*/
 
 }
