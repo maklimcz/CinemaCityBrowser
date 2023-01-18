@@ -81,13 +81,16 @@ func (f Film) getId() string {
 	return f.Id
 }
 
-func fetch_url(url string) []byte {
-	httpClient := http.Client{Timeout: 5 * time.Second}
+type HttpHandler struct {
+	httpClient *http.Client
+}
+
+func (hh *HttpHandler) fetch_url(url string) []byte {
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		log.Fatal(err)
 	}
-	res, err := httpClient.Do(req)
+	res, err := hh.httpClient.Do(req)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -101,8 +104,8 @@ func fetch_url(url string) []byte {
 	return body
 }
 
-func fetch_cinemas() []Cinema {
-	body := fetch_url(cinemasURL)
+func (hh *HttpHandler) fetch_cinemas() []Cinema {
+	body := hh.fetch_url(cinemasURL)
 	var resp CinemasResponse
 	err := json.Unmarshal(body, &resp)
 	if err != nil {
@@ -112,8 +115,8 @@ func fetch_cinemas() []Cinema {
 	return cinemas
 }
 
-func fetch_dates() []string {
-	body := fetch_url(datesURL)
+func (hh *HttpHandler) fetch_dates() []string {
+	body := hh.fetch_url(datesURL)
 	var resp DatesResponse
 	err := json.Unmarshal(body, &resp)
 	if err != nil {
@@ -123,10 +126,10 @@ func fetch_dates() []string {
 	return cinemas
 }
 
-func fetch_events(cinemaId string, date string) ([]Film, []Event) {
-	url := fmt.Sprintf(eventsURLtemplate, cinemaId, date)
+func (hh *HttpHandler) fetch_events(cinema Cinema, date string) ([]Film, []Event) {
+	url := fmt.Sprintf(eventsURLtemplate, cinema.Id, date)
 	log.Println(url)
-	body := fetch_url(url)
+	body := hh.fetch_url(url)
 	var resp EventsResponse
 	err := json.Unmarshal(body, &resp)
 	if err != nil {
@@ -135,12 +138,39 @@ func fetch_events(cinemaId string, date string) ([]Film, []Event) {
 	return resp.Body.Films, resp.Body.Events
 }
 
-func UpsertMany[T WithIndex](coll *mongo.Collection, ctx *context.Context, arr []T) mongo.UpdateResult {
+type MongoHandler struct {
+	client *mongo.Client
+	ctx    context.Context
+	db     *mongo.Database
+}
+
+func (mh *MongoHandler) Init() {
+	var err error
+	mh.client, err = mongo.NewClient(options.Client().ApplyURI("mongodb://root:example@localhost:27017/"))
+	if err != nil {
+		log.Fatal(err)
+	}
+	mh.ctx, _ = context.WithTimeout(context.Background(), 10*time.Second)
+	err = mh.client.Connect(mh.ctx)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	err = mh.client.Ping(mh.ctx, readpref.Primary())
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	mh.db = mh.client.Database("cinema-city")
+}
+
+func (mh *MongoHandler) UpsertMany(collectionName string, arr []WithIndex) mongo.UpdateResult {
 	res := mongo.UpdateResult{}
 	opts := options.Update().SetUpsert(true)
+	coll := mh.db.Collection(collectionName)
 	for _, v := range arr {
 		update := bson.D{{"$set", v}}
-		result, err := coll.UpdateByID(*ctx, v.getId(), update, opts)
+		result, err := coll.UpdateByID(mh.ctx, v.getId(), update, opts)
 		if err != nil {
 			panic(err)
 		}
@@ -151,46 +181,56 @@ func UpsertMany[T WithIndex](coll *mongo.Collection, ctx *context.Context, arr [
 	return res
 }
 
-func fetch_events_and_upsert(cinema Cinema, date string, db *mongo.Database, ctx *context.Context) {
-	log.Printf("Fetching repertoire for cinema %v on date %v\n", cinema.Name, date)
-	films, events := fetch_events(cinema.Id, date)
+func (mh *MongoHandler) UpsertCinemas(cinemas []Cinema) mongo.UpdateResult {
+	xs := make([]WithIndex, 0)
+	for _, cinema := range cinemas {
+		xs = append(xs, cinema)
+	}
+	return mh.UpsertMany("cinemas", xs)
+}
 
-	result := UpsertMany(db.Collection("events"), ctx, events)
-	log.Printf("%v\t%v\tEvents:\tmatched=%v\tmodified=%v\tupserted=%v\n", date, cinema.Name, result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
-	result = UpsertMany(db.Collection("films"), ctx, films)
-	log.Printf("%v\t%v\tFilms:\tmatched=%v\tmodified=%v\tupserted=%v\n", date, cinema.Name, result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
-	log.Println("End")
+func (mh *MongoHandler) UpsertFilms(films []Film) mongo.UpdateResult {
+	xs := make([]WithIndex, 0)
+	for _, film := range films {
+		xs = append(xs, film)
+	}
+	return mh.UpsertMany("film", xs)
+}
+
+func (mh *MongoHandler) UpsertEvents(events []Event) mongo.UpdateResult {
+	xs := make([]WithIndex, 0)
+	for _, event := range events {
+		xs = append(xs, event)
+	}
+	return mh.UpsertMany("events", xs)
+}
+
+func (mh *MongoHandler) Close() {
+	mh.client.Disconnect(mh.ctx)
 }
 
 func main() {
-	cinemas := fetch_cinemas()
-	dates := fetch_dates()
+	hh := HttpHandler{httpClient: &http.Client{Timeout: 5 * time.Second}}
 
-	client, err := mongo.NewClient(options.Client().ApplyURI("mongodb://root:example@localhost:27017/"))
-	if err != nil {
-		log.Fatal(err)
-	}
-	ctx, _ := context.WithTimeout(context.Background(), 10*time.Second)
-	err = client.Connect(ctx)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer client.Disconnect(ctx)
+	cinemas := hh.fetch_cinemas()
+	dates := hh.fetch_dates()
 
-	err = client.Ping(ctx, readpref.Primary())
-	if err != nil {
-		log.Fatal(err)
-	}
+	var mh MongoHandler
+	mh.Init()
+	defer mh.Close()
 
-	db := client.Database("cinema-city")
-
-	result := UpsertMany(db.Collection("cinemas"), &ctx, cinemas)
+	result := mh.UpsertCinemas(cinemas)
 	log.Printf("Cinemas: matched=%v, modified=%v, upserted=%v\n", result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
 
 	for _, date := range dates {
 		for _, cinema := range cinemas {
 			if cinema.Name == "Wrocław - Wroclavia" {
-				fetch_events_and_upsert(cinema, date, db, &ctx)
+				log.Printf("---Fetching repertoire for cinema %v on %v\n", cinema.Name, date)
+				films, events := hh.fetch_events(cinema, date)
+				result = mh.UpsertFilms(films)
+				log.Printf("Films: matched=%v, modified=%v, upserted=%v\n", result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
+				result = mh.UpsertEvents(events)
+				log.Printf("Events: matched=%v, modified=%v, upserted=%v\n", result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
 			}
 		}
 	}
