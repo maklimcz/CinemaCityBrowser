@@ -1,4 +1,4 @@
-module golearn
+module CinemaCityBrowser
 
 go 1.18
 
