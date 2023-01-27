@@ -17,6 +17,12 @@ const (
 	eventsURLtemplate string = `https://www.cinema-city.pl/pl/data-api-service/v1/quickbook/10103/film-events/in-cinema/%v/at-date/%v?attr=&lang=pl_PL`
 )
 
+type HttpHandlerInterface interface {
+	FetchCinemas() []m.Cinema
+	FetchDates() []string
+	FetchEvents(cinema m.Cinema, date string) ([]m.Film, []m.Event)
+}
+
 type HttpHandler struct {
 	httpClient *http.Client
 }
