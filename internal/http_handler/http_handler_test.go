@@ -12,7 +12,7 @@ import (
 
 type MockHttpHandler struct{}
 
-func (mhh MockHttpHandler) fetchUrl(url string) []byte {
+func (mhh *MockHttpHandler) fetchUrl(url string) []byte {
 
 	var fPath string
 	switch {
@@ -32,9 +32,9 @@ func (mhh MockHttpHandler) fetchUrl(url string) []byte {
 }
 
 func TestFetchDates(t *testing.T) {
-	var mhh MockHttpHandler
+	ah := ApiHelper{dataClient: new(MockHttpHandler)}
 
-	dates := FetchDates(mhh)
+	dates := ah.FetchDates()
 	expectedDates := []string{
 		"2022-12-22",
 		"2022-12-23",
@@ -58,8 +58,8 @@ func TestFetchDates(t *testing.T) {
 }
 
 func TestFetchEvents(t *testing.T) {
-	var mhh MockHttpHandler
-	films, events := FetchEvents(mhh, m.Cinema{Id: "mockId", Name: "mockName"}, "mockDate")
+	ah := ApiHelper{dataClient: new(MockHttpHandler)}
+	films, events := ah.FetchEvents(m.Cinema{Id: "mockId", Name: "mockName"}, "mockDate")
 	expectedFilmsNumber := 16
 	expectedEventsNumber := 79
 
@@ -72,8 +72,8 @@ func TestFetchEvents(t *testing.T) {
 }
 
 func TestFetchCinemas(t *testing.T) {
-	var mhh MockHttpHandler
-	cinemas := FetchCinemas(mhh)
+	ah := ApiHelper{dataClient: new(MockHttpHandler)}
+	cinemas := ah.FetchCinemas()
 	expectedCinemas := []m.Cinema{
 		{Id: "1088", Name: "Bielsko-Biała"},
 		{Id: "1086", Name: "Bydgoszcz"},

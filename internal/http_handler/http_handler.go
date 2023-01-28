@@ -17,16 +17,32 @@ const (
 	eventsURLtemplate string = `https://www.cinema-city.pl/pl/data-api-service/v1/quickbook/10103/film-events/in-cinema/%v/at-date/%v?attr=&lang=pl_PL`
 )
 
-type HttpHandlerInterface interface {
+type ApiHelperInterface interface {
+	FetchCinemas() []m.Cinema
+	FetchDates() []string
+	FetchEvents(m.Cinema, string) ([]m.Film, []m.Event)
+}
+
+type ApiHelper struct {
+	dataClient DataClientInterface
+}
+
+func (ah *ApiHelper) Init(dc DataClientInterface) *ApiHelper {
+	ah.dataClient = dc
+	return ah
+}
+
+type DataClientInterface interface {
 	fetchUrl(url string) []byte
 }
 
 type HttpHandler struct {
-	httpClient *http.Client
+	httpClient http.Client
 }
 
-func (hh *HttpHandler) Init(dt time.Duration) {
-	hh.httpClient = &http.Client{Timeout: dt}
+func (hh *HttpHandler) Init(dt time.Duration) *HttpHandler {
+	hh.httpClient = http.Client{Timeout: dt}
+	return hh
 }
 
 func (hh HttpHandler) fetchUrl(url string) []byte {
@@ -48,8 +64,8 @@ func (hh HttpHandler) fetchUrl(url string) []byte {
 	return body
 }
 
-func FetchCinemas(hh HttpHandlerInterface) []m.Cinema {
-	body := hh.fetchUrl(cinemasURL)
+func (ah *ApiHelper) FetchCinemas() []m.Cinema {
+	body := ah.dataClient.fetchUrl(cinemasURL)
 	var resp m.CinemasResponse
 	err := json.Unmarshal(body, &resp)
 	if err != nil {
@@ -59,8 +75,8 @@ func FetchCinemas(hh HttpHandlerInterface) []m.Cinema {
 	return cinemas
 }
 
-func FetchDates(hh HttpHandlerInterface) []string {
-	body := hh.fetchUrl(datesURL)
+func (ah *ApiHelper) FetchDates() []string {
+	body := ah.dataClient.fetchUrl(datesURL)
 	var resp m.DatesResponse
 	err := json.Unmarshal(body, &resp)
 	if err != nil {
@@ -70,10 +86,10 @@ func FetchDates(hh HttpHandlerInterface) []string {
 	return cinemas
 }
 
-func FetchEvents(hh HttpHandlerInterface, cinema m.Cinema, date string) ([]m.Film, []m.Event) {
+func (ah *ApiHelper) FetchEvents(cinema m.Cinema, date string) ([]m.Film, []m.Event) {
 	url := fmt.Sprintf(eventsURLtemplate, cinema.Id, date)
 	log.Println(url)
-	body := hh.fetchUrl(url)
+	body := ah.dataClient.fetchUrl(url)
 	var resp m.EventsResponse
 	err := json.Unmarshal(body, &resp)
 	if err != nil {

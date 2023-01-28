@@ -9,11 +9,11 @@ import (
 )
 
 func main() {
-	var hh api.HttpHandler
-	hh.Init(5 * time.Second)
+	dataClient := new(api.HttpHandler).Init(5 * time.Second)
+	apiHelper := new(api.ApiHelper).Init(dataClient)
 
-	cinemas := api.FetchCinemas(hh)
-	dates := api.FetchDates(hh)
+	cinemas := apiHelper.FetchCinemas()
+	dates := apiHelper.FetchDates()
 
 	var mh db.MongoHandler
 	mh.Init()
@@ -26,7 +26,7 @@ func main() {
 		for _, cinema := range cinemas {
 			if cinema.Name == "Wrocław - Wroclavia" {
 				log.Printf("---Fetching repertoire for cinema %v on %v\n", cinema.Name, date)
-				films, events := api.FetchEvents(hh, cinema, date)
+				films, events := apiHelper.FetchEvents(cinema, date)
 				result = mh.UpsertFilms(films)
 				log.Printf("Films: matched=%v, modified=%v, upserted=%v\n", result.MatchedCount, result.ModifiedCount, result.UpsertedCount)
 				result = mh.UpsertEvents(events)
