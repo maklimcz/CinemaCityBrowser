@@ -1,62 +1,40 @@
 package http_handler
 
 import (
-	"encoding/json"
 	"io/ioutil"
 	"log"
 	"reflect"
+	"strings"
 	"testing"
 
 	m "CinemaCityBrowser/internal/model"
 )
 
-type mockHttpHandler struct{}
+type MockHttpHandler struct{}
 
-func (mhh *mockHttpHandler) FetchDates() []string {
-	content, err := ioutil.ReadFile("../../mockdata/dates.json")
+func (mhh MockHttpHandler) fetchUrl(url string) []byte {
+
+	var fPath string
+	switch {
+	case strings.Contains(url, "dates"):
+		fPath = "../../mockdata/dates.json"
+	case strings.Contains(url, "cinemas"):
+		fPath = "../../mockdata/cinemas.json"
+	case strings.Contains(url, "events"):
+		fPath = "../../mockdata/events.json"
+	}
+
+	content, err := ioutil.ReadFile(fPath)
 	if err != nil {
 		log.Fatal("Error when opening file: ", err)
 	}
-
-	var res m.DatesResponse
-	err = json.Unmarshal(content, &res)
-	if err != nil {
-		log.Fatal("Error during Unmarshal(): ", err)
-	}
-	return res.Body.Dates
-}
-
-func (mhh *mockHttpHandler) FetchCinemas() []m.Cinema {
-	content, err := ioutil.ReadFile("../../mockdata/cinemas.json")
-	if err != nil {
-		log.Fatal("Error when opening file: ", err)
-	}
-
-	var res m.CinemasResponse
-	err = json.Unmarshal(content, &res)
-	if err != nil {
-		log.Fatal("Error during Unmarshal(): ", err)
-	}
-	return res.Body.Cinemas
-}
-
-func (mhh *mockHttpHandler) FetchEvents() ([]m.Film, []m.Event) {
-	content, err := ioutil.ReadFile("../../mockdata/events.json")
-	if err != nil {
-		log.Fatal("Error when opening file: ", err)
-	}
-
-	var res m.EventsResponse
-	err = json.Unmarshal(content, &res)
-	if err != nil {
-		log.Fatal("Error during Unmarshal(): ", err)
-	}
-	return res.Body.Films, res.Body.Events
+	return content
 }
 
 func TestFetchDates(t *testing.T) {
-	var mhh mockHttpHandler
-	dates := mhh.FetchDates()
+	var mhh MockHttpHandler
+
+	dates := FetchDates(mhh)
 	expectedDates := []string{
 		"2022-12-22",
 		"2022-12-23",
@@ -80,8 +58,8 @@ func TestFetchDates(t *testing.T) {
 }
 
 func TestFetchEvents(t *testing.T) {
-	var mhh mockHttpHandler
-	films, events := mhh.FetchEvents()
+	var mhh MockHttpHandler
+	films, events := FetchEvents(mhh, m.Cinema{Id: "mockId", Name: "mockName"}, "mockDate")
 	expectedFilmsNumber := 16
 	expectedEventsNumber := 79
 
@@ -94,8 +72,8 @@ func TestFetchEvents(t *testing.T) {
 }
 
 func TestFetchCinemas(t *testing.T) {
-	var mhh mockHttpHandler
-	cinemas := mhh.FetchCinemas()
+	var mhh MockHttpHandler
+	cinemas := FetchCinemas(mhh)
 	expectedCinemas := []m.Cinema{
 		{Id: "1088", Name: "Bielsko-Biała"},
 		{Id: "1086", Name: "Bydgoszcz"},

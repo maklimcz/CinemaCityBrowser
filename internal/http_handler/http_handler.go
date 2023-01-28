@@ -18,9 +18,7 @@ const (
 )
 
 type HttpHandlerInterface interface {
-	FetchCinemas() []m.Cinema
-	FetchDates() []string
-	FetchEvents(cinema m.Cinema, date string) ([]m.Film, []m.Event)
+	fetchUrl(url string) []byte
 }
 
 type HttpHandler struct {
@@ -31,7 +29,7 @@ func (hh *HttpHandler) Init(dt time.Duration) {
 	hh.httpClient = &http.Client{Timeout: dt}
 }
 
-func (hh *HttpHandler) fetchUrl(url string) []byte {
+func (hh HttpHandler) fetchUrl(url string) []byte {
 	req, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {
 		log.Fatal(err)
@@ -50,7 +48,7 @@ func (hh *HttpHandler) fetchUrl(url string) []byte {
 	return body
 }
 
-func (hh *HttpHandler) FetchCinemas() []m.Cinema {
+func FetchCinemas(hh HttpHandlerInterface) []m.Cinema {
 	body := hh.fetchUrl(cinemasURL)
 	var resp m.CinemasResponse
 	err := json.Unmarshal(body, &resp)
@@ -61,7 +59,7 @@ func (hh *HttpHandler) FetchCinemas() []m.Cinema {
 	return cinemas
 }
 
-func (hh *HttpHandler) FetchDates() []string {
+func FetchDates(hh HttpHandlerInterface) []string {
 	body := hh.fetchUrl(datesURL)
 	var resp m.DatesResponse
 	err := json.Unmarshal(body, &resp)
@@ -72,7 +70,7 @@ func (hh *HttpHandler) FetchDates() []string {
 	return cinemas
 }
 
-func (hh *HttpHandler) FetchEvents(cinema m.Cinema, date string) ([]m.Film, []m.Event) {
+func FetchEvents(hh HttpHandlerInterface, cinema m.Cinema, date string) ([]m.Film, []m.Event) {
 	url := fmt.Sprintf(eventsURLtemplate, cinema.Id, date)
 	log.Println(url)
 	body := hh.fetchUrl(url)
